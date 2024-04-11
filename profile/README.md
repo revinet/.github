@@ -1,5 +1,5 @@
 # reviNet
 
-Well, this is basically @revi's server side stuff.
+Well, this is basically [revi](https://github.com/revi)'s server side stuff.
 
-![intro svg](../metrics/intro.svg)
+![intro svg](https://raw.githubusercontent.com/revinet/.github/master/metrics/intro.svg)
