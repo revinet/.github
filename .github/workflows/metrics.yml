@@ -1,0 +1,19 @@
+name: Metrics
+on:
+  # Update every 3 hours
+  schedule:
+    - cron: "0 */3 * * *"
+  # (optional) Run workflow manually
+  workflow_dispatch:
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Intro"
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics/intro.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          plugin_introduction: yes
+          user: revinet
