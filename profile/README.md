@@ -2,4 +2,4 @@
 
 Well, this is basically @revi's server side stuff.
 
-[!intro svg](../metrics/intro.svg)
+![intro svg](../metrics/intro.svg)
